@@ -46,7 +46,7 @@ export default function EventPage({ evt }) {
         <p>{evt.address}</p>
 
         <Link href='/events'>
-          <a className={styles.back}>{"<"}Go Back</a>
+          <a className={styles.back}>{"<"} Go Back</a>
         </Link>
       </div>
     </Layout>
